@@ -1,0 +1,229 @@
+.forms {
+  width: 50vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+}
+.forms .justify {
+  width: 61%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.forms .justify h1 {
+  font-size: 12vw;
+  color: rgb(10, 10, 10);
+}
+.forms .justify .line {
+  width: 100%;
+  height: 0.5vw;
+  border-radius: 1vw;
+  margin-bottom: 1vw;
+  background-color: rgb(10, 10, 10);
+}
+.forms .justify .buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forms .justify .buttons .login {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  width: 14.5vw;
+  height: 3vw;
+  justify-content: center;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  border: 6px solid rgb(10, 10, 10);
+  color: rgb(255, 243, 226);
+  background-color: rgb(10, 10, 10);
+}
+.forms .justify .buttons .login:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.forms .justify .buttons .cadastrar {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  width: 14.5vw;
+  height: 3vw;
+  justify-content: center;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  border: 6px solid rgb(10, 10, 10);
+  color: rgb(10, 10, 10);
+  background-color: rgb(255, 208, 67);
+}
+.forms .justify .buttons .cadastrar:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.forms .justify .inputs {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.forms .justify .inputs input {
+  border-radius: 10vw;
+  transition: all 0.5s;
+  border: none;
+  font-size: 1.2vw;
+  width: 100%;
+  height: 3.5vw;
+  padding-left: 1vw;
+  margin-top: 5vh;
+  background: rgb(255, 243, 226);
+}
+.forms .justify .inputs input:focus {
+  border-radius: 0vw;
+  outline: none;
+}
+.forms .justify .final {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forms .justify .final a {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  width: 14.5vw;
+  height: 3vw;
+  justify-content: center;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  border: 6px solid rgb(255, 243, 226);
+  color: rgb(10, 10, 10);
+  background-color: rgb(255, 243, 226);
+  text-decoration: none;
+  border: none;
+  font-size: 1.2vw;
+}
+.forms .justify .final a:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.forms .justify .final input {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+  width: 14.5vw;
+  height: 3vw;
+  justify-content: center;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  border: 6px solid rgb(10, 10, 10);
+  color: rgb(255, 243, 226);
+  background-color: rgb(10, 10, 10);
+}
+.forms .justify .final input:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.localizacao {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.localizacao ::-webkit-scrollbar {
+  background-color: rgb(255, 243, 226);
+}
+.localizacao select {
+  border-radius: 10vw;
+  transition: all 0.5s;
+  border: none;
+  font-size: 1.2vw;
+  width: 100%;
+  height: 3.5vw;
+  padding-left: 1vw;
+  margin-top: 5vh;
+  background: rgb(255, 243, 226);
+  width: 45%;
+}
+.localizacao select:focus {
+  border-radius: 0vw;
+  outline: none;
+}
+
+.baixo {
+  padding-bottom: 5vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(255, 208, 67);
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(255, 208, 67);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(10, 10, 10);
+  border-radius: 1vw;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans";
+}
+
+.image {
+  height: 90vh;
+  width: 40vw;
+  border-radius: 2vw;
+  overflow: hidden;
+}
+.image img {
+  width: 60vw;
+  height: 100%;
+}
+
+footer {
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
+  margin-top: 5vw;
+  justify-content: center;
+  flex-direction: column;
+  height: 10vw;
+}
+footer .logos {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .logos img {
+  width: 5vw;
+  border-radius: 50%;
+}
+footer p {
+  color: rgb(255, 243, 226);
+  margin-top: 2vw;
+  font-family: "Open Sans";
+}
+
+/*# sourceMappingURL=styles.css.map */

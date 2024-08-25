@@ -1,0 +1,38 @@
+@mixin flex(){
+    display: flex;
+    align-items: center;
+}
+@mixin transition(){
+    transition: all .5s;
+}
+@mixin button($color, $background, $border){
+    @include flex();
+    @include transition();
+    width: 14.5vw;
+    height: 3vw;
+    justify-content: center;
+    border-radius: 1vw;
+    font-size:$font-size-p;
+    border: 6px solid $border;
+    color: $color;
+    background-color: $background;
+    &:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+@mixin input($background){
+    border-radius: 10vw;
+    @include transition();
+    border: none;
+    font-size: $font-size-p;
+    width: 100%;
+    height: 3.5vw;
+    padding-left: 1vw;
+    margin-top: 5vh;
+    background: $background;
+    &:focus{
+        border-radius: 0vw;
+        outline: none;
+    }
+}

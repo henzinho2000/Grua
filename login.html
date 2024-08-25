@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="henzo@arty">
+    <link rel="stylesheet" href="./styles/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Login | Grua</title>
+</head>
+<body>
+    <main>
+        <form action="" method="GET" class="forms primeiro">
+            <div class="justify">
+                <h1>Login</h1>
+                <div class="line"></div>
+                <section class="buttons">
+                    <input type="button" onclick="login()" class="login" value="Login"/>
+                    <input type="button" onclick="cadastrar()" class="cadastrar" value="Cadastrar"/>
+                </section>
+                <div class="inputs">
+                    <input type="email" name="name" id="name" placeholder="Digite Seu Email"/>
+                    <input type="password" name="password" id="password" placeholder="Digite sua Senha"/>
+                </div>
+                <div class="final">
+                    <a href="https://www.help.com.br/sobre-a-help.htm#:~:text=Seja%20um%20franqueado-,A%20help!,ser%20uma%20solu%C3%A7%C3%A3o%20multi%20servi%C3%A7os." target="_blank">Esqueci a senha</a>
+                    <input type="submit" value="Enviar"/>
+                </div>
+            </div>
+        </form>
+        <form action="" method="GET" class="forms segundo">
+            <div class="justify">
+                <h1>Cadastro</h1>
+                <div class="line"></div>
+                <section class="buttons">
+                    <input type="button" onclick="login()" class="login" id="primeiro" value="Login"/>
+                    <input type="button" onclick="cadastrar()" class="cadastrar" id="segundo" value="Cadastrar"/>
+                </section>
+                <div class="inputs">
+                    <div>
+                    <input type="email" name="name" placeholder="Digite Seu Email"/>
+                    <input type="text" name="password" placeholder="Digite seu CPF"/>
+                    <div class="localizacao">                        
+                        <select id="lunch" name="lunch">
+                            <option value="Rondônia">RO</option>
+                            <option value="Acre">AC</option>
+                            <option value="Amazonas">AM</option>
+                            <option value="Roraima">RR</option>
+                            <option value="Pará">PA</option>
+                            <option value="Amapá">AP</option>
+                            <option value="Tocantins">TO</option>
+                            <option value="Maranhão">MA</option>
+                            <option value="Piauí">PI</option>
+                            <option value="Ceará">CE</option>
+                            <option value="Rio Grande do Norte">RN</option>
+                            <option value="Paraíba">PB</option>
+                            <option value="Pernambuco">PE</option>
+                            <option value="Alagoas">AL</option>
+                            <option value="Sergipe">SE</option>
+                            <option value="Bahia">BA</option>
+                            <option value="Minas Gerais">MG</option>
+                            <option value="Espirito Santo">ES</option>
+                            <option value="Rio de Janeiro">RJ</option>
+                            <option value="São Paulo">SP</option>
+                            <option value="Paraná">PR</option>
+                            <option value="Santa Catarina">SC</option>
+                            <option value="Rio Grande do Norte">RS</option>
+                            <option value="Mato Grosso do Sul">MS</option>
+                            <option value="Mato Grosso">MT</option>
+                            <option value="Goiás">GO</option>
+                            <option value="Distrito Federal">DF</option>
+                        </select>
+                        <input type="text" name="password" placeholder="Digite sua Localização"/>
+                    </div>
+
+                    <input type="password" name="password"placeholder="Crie uma Senha"/>
+                    </div>
+
+                    <div class="final baixo">
+                        <input type="submit" value="Enviar"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="image">
+            <img src="./styles/images/1.png" alt="">
+        </div>
+    </main>
+</body>
+<footer>
+    <div class="logos">
+        <img src="./styles/images/2.png" alt="">
+        <img src="./styles/images/3.png" alt="">
+        <img src="./styles/images/4.png" alt="">
+    </div>
+    <div>
+        <p>Copyright ©2024; Designed by Henzo</p>
+    </div>
+</footer>
+<script src="./script.js">
+</script>
+
+
+</html>
